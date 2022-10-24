@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "njbpkCnmIjpiOukKuH3Ku0d/uQ3Eh2zM32lxbAkaVS2C8xtL/1zYxDe/FZZLNl8N997VlE7b8Oht5hyfEEF3yA==",
+  "dgSpecHash": "GJ7w3If7hzyVpcsBZIcxFj3cdE8srzqm8qRly+ZtsoOfWLjTFAp/EFw+/oLn3F4N5WXg1F9l9Qjq5lJ/YX3ZjQ==",
   "success": true,
   "projectFilePath": "D:\\documents\\UES\\CICLO-II\\PROGRAMACION-I\\trabajos-de-investigacion\\segundo-trabajo-de-investigacion\\sistema-de-inventario\\Clave1_Grupo1\\Vistas\\Vistas.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ricar\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
