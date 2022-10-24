@@ -1,0 +1,15 @@
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\Controlador.deps.json
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\Controlador.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\Controlador.pdb
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\DAO.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\Entities.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\DAO.pdb
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.csproj.AssemblyReference.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.AssemblyInfoInputs.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.AssemblyInfo.cs
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.csproj.CoreCompileInputs.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.csproj.CopyComplete
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Controlador\obj\Debug\netcoreapp3.1\Controlador.pdb

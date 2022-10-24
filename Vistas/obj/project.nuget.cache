@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "njbpkCnmIjpiOukKuH3Ku0d/uQ3Eh2zM32lxbAkaVS2C8xtL/1zYxDe/FZZLNl8N997VlE7b8Oht5hyfEEF3yA==",
+  "success": true,
+  "projectFilePath": "D:\\documents\\UES\\CICLO-II\\PROGRAMACION-I\\trabajos-de-investigacion\\segundo-trabajo-de-investigacion\\sistema-de-inventario\\Clave1_Grupo1\\Vistas\\Vistas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

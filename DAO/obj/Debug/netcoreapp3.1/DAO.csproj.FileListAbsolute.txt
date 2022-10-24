@@ -1,0 +1,13 @@
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\bin\Debug\netcoreapp3.1\DAO.deps.json
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\bin\Debug\netcoreapp3.1\DAO.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\bin\Debug\netcoreapp3.1\DAO.pdb
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\bin\Debug\netcoreapp3.1\Entities.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.AssemblyReference.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CoreCompileInputs.cache
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CopyComplete
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\DAO\obj\Debug\netcoreapp3.1\DAO.pdb
