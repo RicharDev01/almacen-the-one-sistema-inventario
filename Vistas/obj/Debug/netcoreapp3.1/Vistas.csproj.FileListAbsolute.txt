@@ -23,3 +23,4 @@ D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-traba
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.genruntimeconfig.cache
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.Properties.Resources.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.customControls.CustomInput.resources
