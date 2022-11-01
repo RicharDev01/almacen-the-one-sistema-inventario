@@ -4,7 +4,34 @@
     <Compile Update="customControls\CustomInput.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="FDashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAdminMenu\FVentas.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

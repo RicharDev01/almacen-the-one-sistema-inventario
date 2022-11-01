@@ -18,6 +18,20 @@ namespace Vistas
       InitializeComponent();
     }
 
+    // para verificar si exite la instancia o no
+    // si existe, que retorne la misma, sino que la cree
+    public static FLogin _instanciaFLogin;
+
+    public static FLogin GetInstanciaFLogin()
+    {
+      if (_instanciaFLogin == null)
+      {
+        _instanciaFLogin = new FLogin();
+      }
+
+      return _instanciaFLogin;
+    }
+
     // creo un struct para guardar la paleta de colores
     struct PaletaDeColores
     {
@@ -58,13 +72,16 @@ namespace Vistas
       SendMessage(this.Handle, 0x112, 0xf012, 0);
     }
 
+    private void btnIniciarSession_Click(object sender, EventArgs e)
+    {
+      
+      this.Hide();
+      FDashboardAdmin.GetInstanciaFDashboardAdmin().Show();
+    }
 
-
-    //private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
-    //{
-    //  ReleaseCapture();
-    //  SendMessage(this.Handle, 0x112, 0xf012, 0);
-    //}
-
+    private void FLogin_FormClosing(object sender, FormClosingEventArgs e)
+    {
+      Application.Exit();
+    }
   }
 }

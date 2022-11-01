@@ -24,3 +24,12 @@ D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-traba
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.Properties.Resources.resources
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.customControls.CustomInput.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FDashboardAdmin.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FCategorias.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FClientes.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FHome.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FInventario.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FPedidos.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FProductos.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FProveedores.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FVentas.resources

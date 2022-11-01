@@ -34,7 +34,6 @@ namespace Vistas
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.btnCerrar = new FontAwesome.Sharp.IconButton();
       this.btnMinimizar = new FontAwesome.Sharp.IconButton();
-      this.panelBgInicio = new System.Windows.Forms.Panel();
       this.panelLogin = new System.Windows.Forms.Panel();
       this.btnIniciarSession = new System.Windows.Forms.Button();
       this.iconPassword = new FontAwesome.Sharp.IconPictureBox();
@@ -44,14 +43,13 @@ namespace Vistas
       this.inPassword = new Vistas.customControls.CustomInput();
       this.inUsuario = new Vistas.customControls.CustomInput();
       this.labelTitle = new System.Windows.Forms.Label();
-      this.pictureBox2 = new System.Windows.Forms.PictureBox();
+      this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
       this.panelTitleBar.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-      this.panelBgInicio.SuspendLayout();
       this.panelLogin.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.iconPassword)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.iconUsuario)).BeginInit();
-      ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
       this.SuspendLayout();
       // 
       // panelTitleBar
@@ -85,8 +83,8 @@ namespace Vistas
       this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
       this.btnCerrar.Dock = System.Windows.Forms.DockStyle.Right;
       this.btnCerrar.FlatAppearance.BorderSize = 0;
-      this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-      this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+      this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+      this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btnCerrar.IconChar = FontAwesome.Sharp.IconChar.XmarkSquare;
       this.btnCerrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(102)))), ((int)(((byte)(64)))));
@@ -103,9 +101,10 @@ namespace Vistas
       // btnMinimizar
       // 
       this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+      this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
       this.btnMinimizar.FlatAppearance.BorderSize = 0;
-      this.btnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-      this.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+      this.btnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+      this.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btnMinimizar.IconChar = FontAwesome.Sharp.IconChar.SquareMinus;
       this.btnMinimizar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(133)))), ((int)(((byte)(225)))));
@@ -119,17 +118,6 @@ namespace Vistas
       this.btnMinimizar.UseVisualStyleBackColor = false;
       this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
       // 
-      // panelBgInicio
-      // 
-      this.panelBgInicio.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-      this.panelBgInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(51)))), ((int)(((byte)(48)))), ((int)(((byte)(60)))));
-      this.panelBgInicio.Controls.Add(this.panelLogin);
-      this.panelBgInicio.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.panelBgInicio.Location = new System.Drawing.Point(0, 34);
-      this.panelBgInicio.Name = "panelBgInicio";
-      this.panelBgInicio.Size = new System.Drawing.Size(1280, 686);
-      this.panelBgInicio.TabIndex = 1;
-      // 
       // panelLogin
       // 
       this.panelLogin.BackColor = System.Drawing.Color.Transparent;
@@ -142,23 +130,27 @@ namespace Vistas
       this.panelLogin.Controls.Add(this.inPassword);
       this.panelLogin.Controls.Add(this.inUsuario);
       this.panelLogin.Controls.Add(this.labelTitle);
-      this.panelLogin.Controls.Add(this.pictureBox2);
-      this.panelLogin.Location = new System.Drawing.Point(380, 34);
+      this.panelLogin.Controls.Add(this.pictureBoxLogo);
+      this.panelLogin.Location = new System.Drawing.Point(410, 80);
       this.panelLogin.Name = "panelLogin";
-      this.panelLogin.Size = new System.Drawing.Size(480, 600);
+      this.panelLogin.Size = new System.Drawing.Size(464, 600);
       this.panelLogin.TabIndex = 0;
       // 
       // btnIniciarSession
       // 
       this.btnIniciarSession.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
+      this.btnIniciarSession.Cursor = System.Windows.Forms.Cursors.Hand;
       this.btnIniciarSession.FlatAppearance.BorderSize = 0;
+      this.btnIniciarSession.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
+      this.btnIniciarSession.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
       this.btnIniciarSession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btnIniciarSession.Location = new System.Drawing.Point(92, 457);
       this.btnIniciarSession.Name = "btnIniciarSession";
       this.btnIniciarSession.Size = new System.Drawing.Size(278, 40);
-      this.btnIniciarSession.TabIndex = 5;
+      this.btnIniciarSession.TabIndex = 3;
       this.btnIniciarSession.Text = "INICIAR SESIÓN";
       this.btnIniciarSession.UseVisualStyleBackColor = false;
+      this.btnIniciarSession.Click += new System.EventHandler(this.btnIniciarSession_Click);
       // 
       // iconPassword
       // 
@@ -179,7 +171,7 @@ namespace Vistas
       this.labelPassword.Location = new System.Drawing.Point(121, 348);
       this.labelPassword.Name = "labelPassword";
       this.labelPassword.Size = new System.Drawing.Size(117, 28);
-      this.labelPassword.TabIndex = 3;
+      this.labelPassword.TabIndex = 4;
       this.labelPassword.Text = "CONTRASEÑA";
       // 
       // iconUsuario
@@ -201,7 +193,7 @@ namespace Vistas
       this.labelUsuario.Location = new System.Drawing.Point(121, 251);
       this.labelUsuario.Name = "labelUsuario";
       this.labelUsuario.Size = new System.Drawing.Size(81, 28);
-      this.labelUsuario.TabIndex = 3;
+      this.labelUsuario.TabIndex = 4;
       this.labelUsuario.Text = "USUARIO";
       // 
       // inPassword
@@ -210,7 +202,7 @@ namespace Vistas
       this.inPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
       this.inPassword.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
       this.inPassword.BorderSize = 2;
-      this.inPassword.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.inPassword.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
       this.inPassword.ForeColor = System.Drawing.Color.White;
       this.inPassword.Location = new System.Drawing.Point(92, 383);
       this.inPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -218,7 +210,7 @@ namespace Vistas
       this.inPassword.Name = "inPassword";
       this.inPassword.Padding = new System.Windows.Forms.Padding(7);
       this.inPassword.PasswordChar = true;
-      this.inPassword.Size = new System.Drawing.Size(278, 34);
+      this.inPassword.Size = new System.Drawing.Size(278, 40);
       this.inPassword.TabIndex = 2;
       this.inPassword.Texts = "";
       this.inPassword.UnderlinedStyle = true;
@@ -229,7 +221,7 @@ namespace Vistas
       this.inUsuario.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
       this.inUsuario.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
       this.inUsuario.BorderSize = 2;
-      this.inUsuario.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.inUsuario.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
       this.inUsuario.ForeColor = System.Drawing.Color.White;
       this.inUsuario.Location = new System.Drawing.Point(92, 283);
       this.inUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -237,8 +229,8 @@ namespace Vistas
       this.inUsuario.Name = "inUsuario";
       this.inUsuario.Padding = new System.Windows.Forms.Padding(7);
       this.inUsuario.PasswordChar = false;
-      this.inUsuario.Size = new System.Drawing.Size(278, 34);
-      this.inUsuario.TabIndex = 2;
+      this.inUsuario.Size = new System.Drawing.Size(278, 40);
+      this.inUsuario.TabIndex = 1;
       this.inUsuario.Texts = "";
       this.inUsuario.UnderlinedStyle = true;
       // 
@@ -249,28 +241,27 @@ namespace Vistas
       this.labelTitle.Location = new System.Drawing.Point(92, 176);
       this.labelTitle.Name = "labelTitle";
       this.labelTitle.Size = new System.Drawing.Size(278, 53);
-      this.labelTitle.TabIndex = 1;
+      this.labelTitle.TabIndex = 4;
       this.labelTitle.Text = "INICIO DE SESIÓN";
       // 
-      // pictureBox2
+      // pictureBoxLogo
       // 
-      this.pictureBox2.Image = global::Vistas.Properties.Resources.logo_transparent;
-      this.pictureBox2.Location = new System.Drawing.Point(143, 17);
-      this.pictureBox2.Name = "pictureBox2";
-      this.pictureBox2.Size = new System.Drawing.Size(179, 156);
-      this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-      this.pictureBox2.TabIndex = 0;
-      this.pictureBox2.TabStop = false;
+      this.pictureBoxLogo.Image = global::Vistas.Properties.Resources.logo_transparent;
+      this.pictureBoxLogo.Location = new System.Drawing.Point(143, 17);
+      this.pictureBoxLogo.Name = "pictureBoxLogo";
+      this.pictureBoxLogo.Size = new System.Drawing.Size(179, 156);
+      this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+      this.pictureBoxLogo.TabIndex = 0;
+      this.pictureBoxLogo.TabStop = false;
       // 
       // FLogin
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 28F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(48)))), ((int)(((byte)(60)))));
-      this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ClientSize = new System.Drawing.Size(1280, 720);
-      this.Controls.Add(this.panelBgInicio);
+      this.Controls.Add(this.panelLogin);
       this.Controls.Add(this.panelTitleBar);
       this.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
       this.ForeColor = System.Drawing.Color.White;
@@ -281,14 +272,14 @@ namespace Vistas
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
       this.Text = "Inicio de Sesión";
       this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(178)))), ((int)(((byte)(148)))));
+      this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FLogin_FormClosing);
       this.panelTitleBar.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-      this.panelBgInicio.ResumeLayout(false);
       this.panelLogin.ResumeLayout(false);
       this.panelLogin.PerformLayout();
       ((System.ComponentModel.ISupportInitialize)(this.iconPassword)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.iconUsuario)).EndInit();
-      ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
       this.ResumeLayout(false);
 
     }
@@ -298,11 +289,8 @@ namespace Vistas
     private System.Windows.Forms.Panel panelTitleBar;
     private FontAwesome.Sharp.IconButton btnCerrar;
     private FontAwesome.Sharp.IconButton btnMinimizar;
-    private System.Windows.Forms.Panel panelBgInicio;
     private System.Windows.Forms.PictureBox pictureBox1;
     private System.Windows.Forms.Panel panelLogin;
-    private System.Windows.Forms.Label labelTitle;
-    private System.Windows.Forms.PictureBox pictureBox2;
     private System.Windows.Forms.Button btnIniciarSession;
     private FontAwesome.Sharp.IconPictureBox iconPassword;
     private System.Windows.Forms.Label labelPassword;
@@ -310,6 +298,8 @@ namespace Vistas
     private System.Windows.Forms.Label labelUsuario;
     private customControls.CustomInput inPassword;
     private customControls.CustomInput inUsuario;
+    private System.Windows.Forms.Label labelTitle;
+    private System.Windows.Forms.PictureBox pictureBoxLogo;
   }
 }
 
