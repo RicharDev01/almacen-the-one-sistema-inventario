@@ -248,6 +248,14 @@
             "FontAwesome.Sharp": {
               "target": "Package",
               "version": "[6.1.1, )"
+            },
+            "LiveCharts.WinForms": {
+              "target": "Package",
+              "version": "[0.9.7.1, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.3, )"
             }
           },
           "imports": [

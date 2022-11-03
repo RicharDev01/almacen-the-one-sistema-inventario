@@ -76,7 +76,7 @@ namespace Vistas
         DisableButton();
         //Button
         currentBtn = (IconButton)senderBtn;
-        currentBtn.BackColor = Color.FromArgb(37, 36, 81); //223, 126, 231 active color
+        currentBtn.BackColor = Color.FromArgb(37, 36, 81); // active color
         currentBtn.ForeColor = color;
         currentBtn.IconColor = color;
 
@@ -84,9 +84,7 @@ namespace Vistas
         leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
         leftBorderBtn.Visible = true;
         leftBorderBtn.BringToFront();
-        //Current Child Form Icon
-        //iconCurrentChildForm.IconChar = currentBtn.IconChar;
-        //iconCurrentChildForm.IconColor = color;
+
       }
     }
 
@@ -210,6 +208,13 @@ namespace Vistas
       //  currentChildForm.Close();
       //}
       Reset();
+    }
+
+    private void FDashboardAdmin_Load(object sender, EventArgs e)
+    {
+      //ActivateButton((IconButton)sender, PaletaDeColores.activeColor);
+
+      OpenChildForm(new FHome());
     }
   }
 }

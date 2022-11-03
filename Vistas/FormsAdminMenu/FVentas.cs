@@ -14,5 +14,6 @@ namespace Vistas.FormsAdminMenu
     {
       InitializeComponent();
     }
+
   }
 }

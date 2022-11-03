@@ -33,3 +33,11 @@ D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-traba
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FProductos.resources
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FProveedores.resources
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\obj\Debug\netcoreapp3.1\Vistas.FormsAdminMenu.FVentas.resources
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\LiveCharts.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\LiveCharts.WinForms.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll

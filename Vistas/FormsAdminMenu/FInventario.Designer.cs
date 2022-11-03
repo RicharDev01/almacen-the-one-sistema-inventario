@@ -36,7 +36,7 @@ namespace Vistas.FormsAdminMenu
       // 
       this.label1.AutoSize = true;
       this.label1.Font = new System.Drawing.Font("Poppins", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-      this.label1.Location = new System.Drawing.Point(295, 215);
+      this.label1.Location = new System.Drawing.Point(399, 241);
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(203, 62);
       this.label1.TabIndex = 0;
@@ -46,9 +46,11 @@ namespace Vistas.FormsAdminMenu
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 22F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(59)))), ((int)(((byte)(79)))));
       this.ClientSize = new System.Drawing.Size(1008, 681);
       this.Controls.Add(this.label1);
       this.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.ForeColor = System.Drawing.Color.White;
       this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
       this.Name = "FInventario";
       this.Text = "FInventario";

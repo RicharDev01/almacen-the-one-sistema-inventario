@@ -46,9 +46,11 @@ namespace Vistas.FormsAdminMenu
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 22F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(59)))), ((int)(((byte)(79)))));
       this.ClientSize = new System.Drawing.Size(800, 660);
       this.Controls.Add(this.label1);
       this.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.ForeColor = System.Drawing.Color.White;
       this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
       this.Name = "FProductos";
       this.Text = "FProductos";

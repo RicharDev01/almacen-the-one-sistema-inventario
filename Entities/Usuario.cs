@@ -7,6 +7,7 @@ namespace Entities
     int idUsuario;
     string nombreUsuario;
     string apellidoUsuario;
+    string emailUsuario;
     string rolUsuario;
 
     // constructor
@@ -19,6 +20,6 @@ namespace Entities
     public string NombreUsuario { get => nombreUsuario; set => nombreUsuario = value; }
     public string ApellidoUsuario { get => apellidoUsuario; set => apellidoUsuario = value; }
     public string RolUsuario { get => rolUsuario; set => rolUsuario = value; }
-
+    public string EmailUsuario { get => emailUsuario; set => emailUsuario = value; }
   } // fin de clase Usuario
 }// fin de namespace

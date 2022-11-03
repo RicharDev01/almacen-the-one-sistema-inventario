@@ -378,6 +378,7 @@ namespace Vistas
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Dashboard De Administrador";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FDashboardAdmin_FormClosing);
+      this.Load += new System.EventHandler(this.FDashboardAdmin_Load);
       this.panelTitleBar.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
       this.panelMenuLateral.ResumeLayout(false);
