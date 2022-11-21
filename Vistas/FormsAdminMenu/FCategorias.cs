@@ -23,6 +23,13 @@ namespace Vistas.FormsAdminMenu
       dgvCategorias.DataSource = catControl.getDataFillCategoria();
     } // metodo load
 
+    private void inSearchCategory__TextChanged(object sender, EventArgs e)
+    {
+      var data = catControl.SearchCategory(inSearchCategory.Texts);
+      dgvCategorias.DataSource = data;
+    }
+
+
     private void inAddCategory_Click(object sender, EventArgs e)
     {
       bool error = false;
@@ -48,10 +55,36 @@ namespace Vistas.FormsAdminMenu
 
     }// fin de metodo inAddCategory_Click
 
-    private void inSearchCategory__TextChanged(object sender, EventArgs e)
+    private void dgvCategorias_CellClick(object sender, DataGridViewCellEventArgs e)
     {
-      var data = catControl.SearchCategory(inSearchCategory.Texts);
-      dgvCategorias.DataSource = data;
+      int id = Convert.ToInt32(dgvCategorias.SelectedRows[0].Cells[0].Value);
+      string name = (string) dgvCategorias.SelectedRows[0].Cells[1].Value;
+
+      inEditCategory.Texts = name;
+
+    }// fin de metodo dgvCategorias_CellClick
+
+    // TODO: debo de hacer que se resiva el id y nombre desde el dataGridView
+    public void EditCategory(int id, string name) 
+    {
+      bool res = false;
+
+      if (!string.IsNullOrEmpty(inEditCategory.Texts))
+      {
+        res = catControl.EditCategory(id, name);
+      }
+
+      if (res)
+        MessageBox.Show("Se Actualizo con exito!");
+      else
+        MessageBox.Show("hubo un error al actualizar");
+    }
+
+    private void btnEditCategory_Click(object sender, EventArgs e)
+    {
+      int id = Convert.ToInt32(dgvCategorias.SelectedRows[0].Cells[0].Value);
+      EditCategory(id, inEditCategory.Texts);
+      dgvCategorias.DataSource = catControl.getDataFillCategoria();
     }
   }// fin de clase
 } // fin de namespace

@@ -34,13 +34,14 @@ namespace Vistas.FormsAdminMenu
       this.label1 = new System.Windows.Forms.Label();
       this.inNameCategory = new Vistas.customControls.CustomInput();
       this.labelNameCategory = new System.Windows.Forms.Label();
-      this.inAddCategory = new FontAwesome.Sharp.IconButton();
+      this.btnAddCategory = new FontAwesome.Sharp.IconButton();
       this.dgvCategorias = new System.Windows.Forms.DataGridView();
       this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
       this.inSearchCategory = new Vistas.customControls.CustomInput();
       this.btnSearchCategory = new FontAwesome.Sharp.IconButton();
       this.btnEditCategory = new FontAwesome.Sharp.IconButton();
       this.iconButton1 = new FontAwesome.Sharp.IconButton();
+      this.inEditCategory = new Vistas.customControls.CustomInput();
       ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
       this.SuspendLayout();
@@ -86,23 +87,23 @@ namespace Vistas.FormsAdminMenu
       this.labelNameCategory.TabIndex = 2;
       this.labelNameCategory.Text = "Nombre de Categoria";
       // 
-      // inAddCategory
+      // btnAddCategory
       // 
-      this.inAddCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
-      this.inAddCategory.FlatAppearance.BorderSize = 0;
-      this.inAddCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.inAddCategory.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.inAddCategory.IconChar = FontAwesome.Sharp.IconChar.Plus;
-      this.inAddCategory.IconColor = System.Drawing.Color.White;
-      this.inAddCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
-      this.inAddCategory.IconSize = 40;
-      this.inAddCategory.Location = new System.Drawing.Point(798, 230);
-      this.inAddCategory.Name = "inAddCategory";
-      this.inAddCategory.Size = new System.Drawing.Size(250, 40);
-      this.inAddCategory.TabIndex = 2;
-      this.inAddCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-      this.inAddCategory.UseVisualStyleBackColor = false;
-      this.inAddCategory.Click += new System.EventHandler(this.inAddCategory_Click);
+      this.btnAddCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
+      this.btnAddCategory.FlatAppearance.BorderSize = 0;
+      this.btnAddCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+      this.btnAddCategory.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+      this.btnAddCategory.IconChar = FontAwesome.Sharp.IconChar.Plus;
+      this.btnAddCategory.IconColor = System.Drawing.Color.White;
+      this.btnAddCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
+      this.btnAddCategory.IconSize = 40;
+      this.btnAddCategory.Location = new System.Drawing.Point(798, 230);
+      this.btnAddCategory.Name = "btnAddCategory";
+      this.btnAddCategory.Size = new System.Drawing.Size(250, 40);
+      this.btnAddCategory.TabIndex = 2;
+      this.btnAddCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+      this.btnAddCategory.UseVisualStyleBackColor = false;
+      this.btnAddCategory.Click += new System.EventHandler(this.inAddCategory_Click);
       // 
       // dgvCategorias
       // 
@@ -128,8 +129,10 @@ namespace Vistas.FormsAdminMenu
       this.dgvCategorias.Location = new System.Drawing.Point(121, 251);
       this.dgvCategorias.Name = "dgvCategorias";
       this.dgvCategorias.RowTemplate.Height = 25;
+      this.dgvCategorias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
       this.dgvCategorias.Size = new System.Drawing.Size(430, 259);
       this.dgvCategorias.TabIndex = 3;
+      this.dgvCategorias.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCategorias_CellClick);
       // 
       // errorProvider1
       // 
@@ -158,6 +161,7 @@ namespace Vistas.FormsAdminMenu
       // btnSearchCategory
       // 
       this.btnSearchCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
+      this.btnSearchCategory.Enabled = false;
       this.btnSearchCategory.FlatAppearance.BorderSize = 0;
       this.btnSearchCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btnSearchCategory.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
@@ -183,13 +187,13 @@ namespace Vistas.FormsAdminMenu
       this.btnEditCategory.IconColor = System.Drawing.Color.White;
       this.btnEditCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
       this.btnEditCategory.IconSize = 40;
-      this.btnEditCategory.Location = new System.Drawing.Point(798, 276);
+      this.btnEditCategory.Location = new System.Drawing.Point(798, 324);
       this.btnEditCategory.Name = "btnEditCategory";
       this.btnEditCategory.Size = new System.Drawing.Size(250, 40);
       this.btnEditCategory.TabIndex = 2;
       this.btnEditCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
       this.btnEditCategory.UseVisualStyleBackColor = false;
-      this.btnEditCategory.Click += new System.EventHandler(this.inAddCategory_Click);
+      this.btnEditCategory.Click += new System.EventHandler(this.btnEditCategory_Click);
       // 
       // iconButton1
       // 
@@ -201,13 +205,31 @@ namespace Vistas.FormsAdminMenu
       this.iconButton1.IconColor = System.Drawing.Color.White;
       this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
       this.iconButton1.IconSize = 40;
-      this.iconButton1.Location = new System.Drawing.Point(798, 322);
+      this.iconButton1.Location = new System.Drawing.Point(798, 370);
       this.iconButton1.Name = "iconButton1";
       this.iconButton1.Size = new System.Drawing.Size(250, 40);
       this.iconButton1.TabIndex = 2;
       this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
       this.iconButton1.UseVisualStyleBackColor = false;
-      this.iconButton1.Click += new System.EventHandler(this.inAddCategory_Click);
+      // 
+      // inEditCategory
+      // 
+      this.inEditCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(59)))), ((int)(((byte)(79)))));
+      this.inEditCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
+      this.inEditCategory.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
+      this.inEditCategory.BorderSize = 2;
+      this.inEditCategory.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.inEditCategory.ForeColor = System.Drawing.Color.White;
+      this.inEditCategory.Location = new System.Drawing.Point(798, 277);
+      this.inEditCategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+      this.inEditCategory.Multiline = false;
+      this.inEditCategory.Name = "inEditCategory";
+      this.inEditCategory.Padding = new System.Windows.Forms.Padding(7);
+      this.inEditCategory.PasswordChar = false;
+      this.inEditCategory.Size = new System.Drawing.Size(250, 40);
+      this.inEditCategory.TabIndex = 1;
+      this.inEditCategory.Texts = "";
+      this.inEditCategory.UnderlinedStyle = false;
       // 
       // FCategorias
       // 
@@ -219,9 +241,10 @@ namespace Vistas.FormsAdminMenu
       this.Controls.Add(this.btnSearchCategory);
       this.Controls.Add(this.iconButton1);
       this.Controls.Add(this.btnEditCategory);
-      this.Controls.Add(this.inAddCategory);
+      this.Controls.Add(this.btnAddCategory);
       this.Controls.Add(this.labelNameCategory);
       this.Controls.Add(this.inSearchCategory);
+      this.Controls.Add(this.inEditCategory);
       this.Controls.Add(this.inNameCategory);
       this.Controls.Add(this.label1);
       this.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
@@ -242,12 +265,13 @@ namespace Vistas.FormsAdminMenu
     private System.Windows.Forms.Label label1;
     private customControls.CustomInput inNameCategory;
     private System.Windows.Forms.Label labelNameCategory;
-    private FontAwesome.Sharp.IconButton inAddCategory;
+    private FontAwesome.Sharp.IconButton btnAddCategory;
     private System.Windows.Forms.DataGridView dgvCategorias;
     private System.Windows.Forms.ErrorProvider errorProvider1;
     private FontAwesome.Sharp.IconButton btnSearchCategory;
     private customControls.CustomInput inSearchCategory;
     private FontAwesome.Sharp.IconButton btnEditCategory;
     private FontAwesome.Sharp.IconButton iconButton1;
+    private customControls.CustomInput inEditCategory;
   }
 }

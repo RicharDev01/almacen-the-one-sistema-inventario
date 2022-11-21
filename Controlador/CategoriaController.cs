@@ -16,15 +16,6 @@ namespace Controlador
 
       return tabla;
     }
-
-    public bool AddCategory(string categoria)
-    {
-
-      var exito = cdao.AddCategory(categoria);
-
-      return exito;
-    }// fin de metodo add
-
     public DataTable SearchCategory(string buscado)
     {
 
@@ -36,6 +27,23 @@ namespace Controlador
 
       return table;
     }
+
+    public bool AddCategory(string categoria)
+    {
+
+      var exito = cdao.AddCategory(categoria);
+
+      return exito;
+    }// fin de metodo add
+
+    public bool EditCategory(int id, string categoria)
+    {
+
+      var exito = cdao.EditCategory(id, categoria);
+
+      return exito;
+    }// fin de metodo add
+
 
   }// fin de clase
 }// fin de namespace
