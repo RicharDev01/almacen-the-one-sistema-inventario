@@ -33,7 +33,10 @@ namespace Vistas.FormsAdminMenu
         //MessageBox.Show("No hay error, no esta vacio");
         bool res = catControl.AddCategory(inNameCategory.Texts);
         if (res)
+        {
           MessageBox.Show("Se registro la categoria con éxito!");
+          dgvCategorias.DataSource = catControl.getDataFillCategoria();
+        }
       }
       else
         error = true;
@@ -45,10 +48,10 @@ namespace Vistas.FormsAdminMenu
 
     }// fin de metodo inAddCategory_Click
 
-
-    private void inNameCategory_KeyPress(object sender, KeyPressEventArgs e)
+    private void inSearchCategory__TextChanged(object sender, EventArgs e)
     {
-      errorProvider1.Clear();
+      var data = catControl.SearchCategory(inSearchCategory.Texts);
+      dgvCategorias.DataSource = data;
     }
   }// fin de clase
 } // fin de namespace

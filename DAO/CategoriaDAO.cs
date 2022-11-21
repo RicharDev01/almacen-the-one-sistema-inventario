@@ -19,13 +19,13 @@ namespace DAO
       // Abro la conexion
       var con = conex.getConnection();
       con.Open();
-      MySqlDataAdapter sql = new MySqlDataAdapter();
+      MySqlDataAdapter da = new MySqlDataAdapter();
 
       try
       {
         query = "SELECT id_categoria AS ID, nombre_categoria as CATEGORIA FROM tbl_categorias;";
         MySqlCommand cmd = new MySqlCommand(query,con);
-        sql.SelectCommand = cmd;
+        da.SelectCommand = cmd;
         
       }
       catch (MySqlException ex)
@@ -34,7 +34,7 @@ namespace DAO
       }
       
 
-      return sql;
+      return da;
     }
 
     public bool AddCategory(string categoria)
@@ -69,7 +69,32 @@ namespace DAO
       }
 
       return exito;
-    }
+    }// fin de metodo AddCategory
+
+    public MySqlDataAdapter SearchCategory(string searching)
+    {
+      // Abro la conexion
+      var con = conex.getConnection();
+      con.Open();
+
+      MySqlDataAdapter da = new MySqlDataAdapter();
+      try
+      {
+        query = $"SELECT id_categoria AS ID, nombre_categoria AS CATEGORIA \n" +
+                $"FROM tbl_categorias WHERE nombre_categoria LIKE '{searching}%';";
+
+        MySqlCommand cmd = new MySqlCommand(query, con);
+        da.SelectCommand = cmd;
+
+      }
+      catch (MySqlException ex)
+      {
+        MessageBox.Show($"Error de SearchCategory {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+      }
+
+      return da;
+
+    } // fin de metodo SearchCategory
 
   }// fin de clase dao
 }// fin de namespace

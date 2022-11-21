@@ -65,6 +65,7 @@ namespace Vistas
       public static Color activeColor = Color.FromArgb(223, 126, 231);
       public static Color textColor = Color.FromArgb(170, 168, 195);
       public static Color infoColor = Color.FromArgb(103, 72, 213);
+      public static Color warningColor = Color.FromArgb(255, 177, 66);
     }
 
 

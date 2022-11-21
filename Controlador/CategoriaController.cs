@@ -23,6 +23,18 @@ namespace Controlador
       var exito = cdao.AddCategory(categoria);
 
       return exito;
+    }// fin de metodo add
+
+    public DataTable SearchCategory(string buscado)
+    {
+
+      DataTable table = new DataTable();
+
+      var da = cdao.SearchCategory(buscado);
+
+      da.Fill(table);
+
+      return table;
     }
 
   }// fin de clase
