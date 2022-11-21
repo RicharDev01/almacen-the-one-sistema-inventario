@@ -32,7 +32,7 @@ namespace Vistas.FormsAdminMenu
       this.components = new System.ComponentModel.Container();
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FHome));
       this.bannerWelcome = new System.Windows.Forms.Panel();
-      this.label1 = new System.Windows.Forms.Label();
+      this.labelWelcome = new System.Windows.Forms.Label();
       this.labelNameUser = new System.Windows.Forms.Label();
       this.ibtnFechaHora = new FontAwesome.Sharp.IconButton();
       this.pbxBanner = new System.Windows.Forms.PictureBox();
@@ -42,8 +42,8 @@ namespace Vistas.FormsAdminMenu
       this.chartProdMasVendido = new LiveCharts.WinForms.CartesianChart();
       this.labelCardTitle = new System.Windows.Forms.Label();
       this.panelMenosVendido = new System.Windows.Forms.Panel();
-      this.label2 = new System.Windows.Forms.Label();
-      this.label3 = new System.Windows.Forms.Label();
+      this.labelCountMenosVendido = new System.Windows.Forms.Label();
+      this.labelNameMenosVendido = new System.Windows.Forms.Label();
       this.chartProdMenosVendido = new LiveCharts.WinForms.CartesianChart();
       this.labelCardTitleMenos = new System.Windows.Forms.Label();
       this.timerActualizarFecha = new System.Windows.Forms.Timer(this.components);
@@ -56,7 +56,7 @@ namespace Vistas.FormsAdminMenu
       // bannerWelcome
       // 
       this.bannerWelcome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
-      this.bannerWelcome.Controls.Add(this.label1);
+      this.bannerWelcome.Controls.Add(this.labelWelcome);
       this.bannerWelcome.Controls.Add(this.labelNameUser);
       this.bannerWelcome.Controls.Add(this.ibtnFechaHora);
       this.bannerWelcome.Controls.Add(this.pbxBanner);
@@ -66,15 +66,15 @@ namespace Vistas.FormsAdminMenu
       this.bannerWelcome.Size = new System.Drawing.Size(1239, 177);
       this.bannerWelcome.TabIndex = 1;
       // 
-      // label1
+      // labelWelcome
       // 
-      this.label1.AutoSize = true;
-      this.label1.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.label1.Location = new System.Drawing.Point(76, 134);
-      this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(344, 28);
-      this.label1.TabIndex = 2;
-      this.label1.Text = "Estas son las novedadaes del día Martes";
+      this.labelWelcome.AutoSize = true;
+      this.labelWelcome.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+      this.labelWelcome.Location = new System.Drawing.Point(76, 134);
+      this.labelWelcome.Name = "labelWelcome";
+      this.labelWelcome.Size = new System.Drawing.Size(344, 28);
+      this.labelWelcome.TabIndex = 2;
+      this.labelWelcome.Text = "Estas son las novedadaes del día Martes";
       // 
       // labelNameUser
       // 
@@ -124,37 +124,40 @@ namespace Vistas.FormsAdminMenu
       this.cardMasVendido.Controls.Add(this.labelNameProduct);
       this.cardMasVendido.Controls.Add(this.chartProdMasVendido);
       this.cardMasVendido.Controls.Add(this.labelCardTitle);
-      this.cardMasVendido.Location = new System.Drawing.Point(191, 198);
+      this.cardMasVendido.Location = new System.Drawing.Point(76, 198);
       this.cardMasVendido.Name = "cardMasVendido";
-      this.cardMasVendido.Size = new System.Drawing.Size(275, 250);
+      this.cardMasVendido.Size = new System.Drawing.Size(419, 293);
       this.cardMasVendido.TabIndex = 2;
       // 
       // labelCountProduct
       // 
       this.labelCountProduct.AutoSize = true;
-      this.labelCountProduct.Font = new System.Drawing.Font("Poppins", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+      this.labelCountProduct.Font = new System.Drawing.Font("Poppins", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
       this.labelCountProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(178)))), ((int)(((byte)(148)))));
-      this.labelCountProduct.Location = new System.Drawing.Point(106, 69);
+      this.labelCountProduct.Location = new System.Drawing.Point(296, 48);
       this.labelCountProduct.Name = "labelCountProduct";
-      this.labelCountProduct.Size = new System.Drawing.Size(47, 36);
+      this.labelCountProduct.Size = new System.Drawing.Size(70, 53);
       this.labelCountProduct.TabIndex = 3;
       this.labelCountProduct.Text = "125";
       // 
       // labelNameProduct
       // 
+      this.labelNameProduct.Anchor = System.Windows.Forms.AnchorStyles.Left;
       this.labelNameProduct.AutoSize = true;
       this.labelNameProduct.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.labelNameProduct.Location = new System.Drawing.Point(74, 37);
+      this.labelNameProduct.Location = new System.Drawing.Point(3, 58);
+      this.labelNameProduct.MaximumSize = new System.Drawing.Size(275, 0);
       this.labelNameProduct.Name = "labelNameProduct";
-      this.labelNameProduct.Size = new System.Drawing.Size(110, 22);
+      this.labelNameProduct.Size = new System.Drawing.Size(257, 44);
       this.labelNameProduct.TabIndex = 2;
-      this.labelNameProduct.Text = "Mouse Strike Me";
+      this.labelNameProduct.Text = "Mouse Strike Me Mouse Strike MeMouse Strike Me";
+      this.labelNameProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       // 
       // chartProdMasVendido
       // 
-      this.chartProdMasVendido.Location = new System.Drawing.Point(3, 108);
+      this.chartProdMasVendido.Location = new System.Drawing.Point(3, 136);
       this.chartProdMasVendido.Name = "chartProdMasVendido";
-      this.chartProdMasVendido.Size = new System.Drawing.Size(269, 139);
+      this.chartProdMasVendido.Size = new System.Drawing.Size(416, 157);
       this.chartProdMasVendido.TabIndex = 1;
       this.chartProdMasVendido.Text = "Producto Mas vendido";
       // 
@@ -162,7 +165,7 @@ namespace Vistas.FormsAdminMenu
       // 
       this.labelCardTitle.AutoSize = true;
       this.labelCardTitle.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.labelCardTitle.Location = new System.Drawing.Point(45, 0);
+      this.labelCardTitle.Location = new System.Drawing.Point(111, 0);
       this.labelCardTitle.Name = "labelCardTitle";
       this.labelCardTitle.Size = new System.Drawing.Size(176, 25);
       this.labelCardTitle.TabIndex = 0;
@@ -171,41 +174,42 @@ namespace Vistas.FormsAdminMenu
       // panelMenosVendido
       // 
       this.panelMenosVendido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(81)))), ((int)(((byte)(96)))));
-      this.panelMenosVendido.Controls.Add(this.label2);
-      this.panelMenosVendido.Controls.Add(this.label3);
+      this.panelMenosVendido.Controls.Add(this.labelCountMenosVendido);
+      this.panelMenosVendido.Controls.Add(this.labelNameMenosVendido);
       this.panelMenosVendido.Controls.Add(this.chartProdMenosVendido);
       this.panelMenosVendido.Controls.Add(this.labelCardTitleMenos);
-      this.panelMenosVendido.Location = new System.Drawing.Point(777, 198);
+      this.panelMenosVendido.Location = new System.Drawing.Point(763, 198);
       this.panelMenosVendido.Name = "panelMenosVendido";
-      this.panelMenosVendido.Size = new System.Drawing.Size(275, 250);
+      this.panelMenosVendido.Size = new System.Drawing.Size(419, 296);
       this.panelMenosVendido.TabIndex = 2;
       // 
-      // label2
+      // labelCountMenosVendido
       // 
-      this.label2.AutoSize = true;
-      this.label2.Font = new System.Drawing.Font("Poppins", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(102)))), ((int)(((byte)(64)))));
-      this.label2.Location = new System.Drawing.Point(114, 69);
-      this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(39, 36);
-      this.label2.TabIndex = 3;
-      this.label2.Text = "25";
+      this.labelCountMenosVendido.AutoSize = true;
+      this.labelCountMenosVendido.Font = new System.Drawing.Font("Poppins", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+      this.labelCountMenosVendido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(102)))), ((int)(((byte)(64)))));
+      this.labelCountMenosVendido.Location = new System.Drawing.Point(285, 49);
+      this.labelCountMenosVendido.Name = "labelCountMenosVendido";
+      this.labelCountMenosVendido.Size = new System.Drawing.Size(59, 53);
+      this.labelCountMenosVendido.TabIndex = 3;
+      this.labelCountMenosVendido.Text = "25";
       // 
-      // label3
+      // labelNameMenosVendido
       // 
-      this.label3.AutoSize = true;
-      this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.label3.Location = new System.Drawing.Point(74, 37);
-      this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(125, 22);
-      this.label3.TabIndex = 2;
-      this.label3.Text = "Monitor 24\" 3D xyz";
+      this.labelNameMenosVendido.AutoSize = true;
+      this.labelNameMenosVendido.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+      this.labelNameMenosVendido.Location = new System.Drawing.Point(0, 48);
+      this.labelNameMenosVendido.MaximumSize = new System.Drawing.Size(275, 0);
+      this.labelNameMenosVendido.Name = "labelNameMenosVendido";
+      this.labelNameMenosVendido.Size = new System.Drawing.Size(125, 22);
+      this.labelNameMenosVendido.TabIndex = 2;
+      this.labelNameMenosVendido.Text = "Monitor 24\" 3D xyz";
       // 
       // chartProdMenosVendido
       // 
-      this.chartProdMenosVendido.Location = new System.Drawing.Point(3, 108);
+      this.chartProdMenosVendido.Location = new System.Drawing.Point(-3, 136);
       this.chartProdMenosVendido.Name = "chartProdMenosVendido";
-      this.chartProdMenosVendido.Size = new System.Drawing.Size(269, 139);
+      this.chartProdMenosVendido.Size = new System.Drawing.Size(419, 157);
       this.chartProdMenosVendido.TabIndex = 1;
       this.chartProdMenosVendido.Text = "Producto Mas vendido";
       // 
@@ -213,7 +217,7 @@ namespace Vistas.FormsAdminMenu
       // 
       this.labelCardTitleMenos.AutoSize = true;
       this.labelCardTitleMenos.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-      this.labelCardTitleMenos.Location = new System.Drawing.Point(45, 0);
+      this.labelCardTitleMenos.Location = new System.Drawing.Point(115, 0);
       this.labelCardTitleMenos.Name = "labelCardTitleMenos";
       this.labelCardTitleMenos.Size = new System.Drawing.Size(193, 25);
       this.labelCardTitleMenos.TabIndex = 0;
@@ -254,7 +258,7 @@ namespace Vistas.FormsAdminMenu
     private System.Windows.Forms.Panel bannerWelcome;
     private FontAwesome.Sharp.IconButton ibtnFechaHora;
     private System.Windows.Forms.PictureBox pbxBanner;
-    private System.Windows.Forms.Label label1;
+    private System.Windows.Forms.Label labelWelcome;
     private System.Windows.Forms.Label labelNameUser;
     private System.Windows.Forms.Panel cardMasVendido;
     private System.Windows.Forms.Label labelCardTitle;
@@ -262,8 +266,8 @@ namespace Vistas.FormsAdminMenu
     private System.Windows.Forms.Label labelNameProduct;
     private System.Windows.Forms.Label labelCountProduct;
     private System.Windows.Forms.Panel panelMenosVendido;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.Label label3;
+    private System.Windows.Forms.Label labelCountMenosVendido;
+    private System.Windows.Forms.Label labelNameMenosVendido;
     private LiveCharts.WinForms.CartesianChart chartProdMenosVendido;
     private System.Windows.Forms.Label labelCardTitleMenos;
     private System.Windows.Forms.Timer timerActualizarFecha;

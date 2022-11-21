@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entities
 {
-  class Pedidos
+  public class Pedidos
   {
 
     int idPedido;

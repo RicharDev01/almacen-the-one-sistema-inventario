@@ -41,3 +41,11 @@ D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-traba
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\libSkiaSharp.dll
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
 D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\ZstdNet.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\documents\UES\CICLO-II\PROGRAMACION-I\trabajos-de-investigacion\segundo-trabajo-de-investigacion\sistema-de-inventario\Clave1_Grupo1\Vistas\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entities
 {
-  class Cliente: Usuario
+  public class Cliente : Usuario
   {
     int idCliente;
     Usuario usuarioId;

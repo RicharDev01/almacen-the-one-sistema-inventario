@@ -8,6 +8,8 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using SkiaSharp;
+using System.Globalization;
+using Controlador;
 
 //using LiveChartsCore;
 
@@ -15,12 +17,34 @@ namespace Vistas.FormsAdminMenu
 {
   public partial class FHome : Form
   {
+    MainScreenController msc = new MainScreenController();
+
     public FHome()
     {
       InitializeComponent();
     }
 
     private void FHome_Load(object sender, EventArgs e)
+    {
+      // MOSTRAR LAS GRAFICAS
+      ShowGraficas();
+
+      /// MOSTRAR FECHA Y HORA ACTUAL
+      
+      FechaHora();
+
+      // obtener el producto mas vendido
+      labelCountProduct.Text = msc.getProductoMasVendido()[1];
+      labelNameProduct.Text = msc.getProductoMasVendido()[2];
+
+      // obtener el producto menos vendido
+      labelCountMenosVendido.Text = msc.getProductoMenosVendido()[1];
+      labelNameMenosVendido.Text = msc.getProductoMenosVendido()[2];
+
+    }// FIN DE METODO LOAD
+
+    // metodo de mostrar garfocas de mas vendido y menos vendido
+    public void ShowGraficas()
     {
       chartProdMasVendido.AxisX.Add(new LiveCharts.Wpf.Axis
       {
@@ -72,23 +96,24 @@ namespace Vistas.FormsAdminMenu
       lineasGraficas2.PointForeground = System.Windows.Media.Brushes.Aquamarine;
       series2.Add(lineasGraficas2);
       chartProdMenosVendido.Series = series2;
-
-      /// MOSTRAR FECHA Y HORA ACTUAL
-      
-      FechaHora();
     }
 
+    // funcion que realiza imprime la fecha y hora actuaal.
     private void FechaHora()
     {
       timerActualizarFecha.Enabled = true;
       string hora = DateTime.Now.ToString("hh:mm tt");
       string fecha = DateTime.Now.ToLongDateString();
+      string dia = DateTime.Now.Date.ToString("dddd", new CultureInfo("es-ES"));
       ibtnFechaHora.Text = $"{fecha}   {hora}";
+      labelWelcome.Text = $"Estas son las novedadades del día {dia}";
     }
 
     private void timerActualizarFecha_Tick(object sender, EventArgs e)
     {
       FechaHora();
     }
+
+
   }// fin de clase FHome
 }
