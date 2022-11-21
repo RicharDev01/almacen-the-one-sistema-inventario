@@ -25,8 +25,30 @@ namespace Vistas.FormsAdminMenu
 
     private void inAddCategory_Click(object sender, EventArgs e)
     {
+      bool error = false;
+
+      if (!string.IsNullOrEmpty(inNameCategory.Texts))
+      {
+        // enviar nombre de la categoria
+        //MessageBox.Show("No hay error, no esta vacio");
+        bool res = catControl.AddCategory(inNameCategory.Texts);
+        if (res)
+          MessageBox.Show("Se registro la categoria con éxito!");
+      }
+      else
+        error = true;
+
+      if (error)
+        errorProvider1.SetError(inNameCategory, "Campo vacio");
+      else
+        errorProvider1.Clear();
 
     }// fin de metodo inAddCategory_Click
 
+
+    private void inNameCategory_KeyPress(object sender, KeyPressEventArgs e)
+    {
+      errorProvider1.Clear();
+    }
   }// fin de clase
 } // fin de namespace

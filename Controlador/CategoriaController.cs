@@ -17,5 +17,13 @@ namespace Controlador
       return tabla;
     }
 
+    public bool AddCategory(string categoria)
+    {
+
+      var exito = cdao.AddCategory(categoria);
+
+      return exito;
+    }
+
   }// fin de clase
 }// fin de namespace

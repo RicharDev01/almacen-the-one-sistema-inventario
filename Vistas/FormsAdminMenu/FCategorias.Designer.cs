@@ -29,13 +29,16 @@ namespace Vistas.FormsAdminMenu
     /// </summary>
     private void InitializeComponent()
     {
+      this.components = new System.ComponentModel.Container();
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
       this.label1 = new System.Windows.Forms.Label();
       this.inNameCategory = new Vistas.customControls.CustomInput();
       this.labelNameCategory = new System.Windows.Forms.Label();
       this.inAddCategory = new FontAwesome.Sharp.IconButton();
       this.dgvCategorias = new System.Windows.Forms.DataGridView();
+      this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
       ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
       this.SuspendLayout();
       // 
       // label1
@@ -56,24 +59,25 @@ namespace Vistas.FormsAdminMenu
       this.inNameCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(86)))), ((int)(((byte)(204)))));
       this.inNameCategory.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(126)))), ((int)(((byte)(231)))));
       this.inNameCategory.BorderSize = 2;
-      this.inNameCategory.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+      this.inNameCategory.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
       this.inNameCategory.ForeColor = System.Drawing.Color.White;
-      this.inNameCategory.Location = new System.Drawing.Point(373, 178);
+      this.inNameCategory.Location = new System.Drawing.Point(399, 184);
       this.inNameCategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.inNameCategory.Multiline = false;
       this.inNameCategory.Name = "inNameCategory";
       this.inNameCategory.Padding = new System.Windows.Forms.Padding(7);
       this.inNameCategory.PasswordChar = false;
-      this.inNameCategory.Size = new System.Drawing.Size(250, 34);
+      this.inNameCategory.Size = new System.Drawing.Size(250, 40);
       this.inNameCategory.TabIndex = 1;
       this.inNameCategory.Texts = "";
       this.inNameCategory.UnderlinedStyle = false;
+      this.inNameCategory.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.inNameCategory_KeyPress);
       // 
       // labelNameCategory
       // 
       this.labelNameCategory.AutoSize = true;
       this.labelNameCategory.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-      this.labelNameCategory.Location = new System.Drawing.Point(373, 146);
+      this.labelNameCategory.Location = new System.Drawing.Point(399, 152);
       this.labelNameCategory.Name = "labelNameCategory";
       this.labelNameCategory.Size = new System.Drawing.Size(186, 28);
       this.labelNameCategory.TabIndex = 2;
@@ -88,9 +92,9 @@ namespace Vistas.FormsAdminMenu
       this.inAddCategory.IconChar = FontAwesome.Sharp.IconChar.None;
       this.inAddCategory.IconColor = System.Drawing.Color.Black;
       this.inAddCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
-      this.inAddCategory.Location = new System.Drawing.Point(729, 178);
+      this.inAddCategory.Location = new System.Drawing.Point(690, 184);
       this.inAddCategory.Name = "inAddCategory";
-      this.inAddCategory.Size = new System.Drawing.Size(163, 33);
+      this.inAddCategory.Size = new System.Drawing.Size(178, 40);
       this.inAddCategory.TabIndex = 2;
       this.inAddCategory.Text = "Agregar";
       this.inAddCategory.UseVisualStyleBackColor = false;
@@ -123,6 +127,10 @@ namespace Vistas.FormsAdminMenu
       this.dgvCategorias.Size = new System.Drawing.Size(410, 257);
       this.dgvCategorias.TabIndex = 3;
       // 
+      // errorProvider1
+      // 
+      this.errorProvider1.ContainerControl = this;
+      // 
       // FCategorias
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 22F);
@@ -141,6 +149,7 @@ namespace Vistas.FormsAdminMenu
       this.Text = "FCategorias";
       this.Load += new System.EventHandler(this.FCategorias_Load);
       ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -153,5 +162,6 @@ namespace Vistas.FormsAdminMenu
     private System.Windows.Forms.Label labelNameCategory;
     private FontAwesome.Sharp.IconButton inAddCategory;
     private System.Windows.Forms.DataGridView dgvCategorias;
+    private System.Windows.Forms.ErrorProvider errorProvider1;
   }
 }
